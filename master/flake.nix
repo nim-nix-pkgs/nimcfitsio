@@ -11,6 +11,7 @@
   inputs.src-nimcfitsio-master.ref   = "refs/heads/master";
   inputs.src-nimcfitsio-master.owner = "ziotom78";
   inputs.src-nimcfitsio-master.repo  = "nimcfitsio";
+  inputs.src-nimcfitsio-master.dir   = "";
   inputs.src-nimcfitsio-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
